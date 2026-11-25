@@ -1,0 +1,8 @@
+uuid: 02c27b0f-1f7e-4fdb-8ec7-22eeff20b258
+langcode: en
+status: true
+dependencies: {  }
+id: block_with_twig_templating_
+label: '(DEPRECATED) Block with Twig Templating (legacy) do not use'
+revision: true
+description: 'DEPRECATED, please use the other one!'

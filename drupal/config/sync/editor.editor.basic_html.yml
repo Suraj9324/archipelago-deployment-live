@@ -1,0 +1,34 @@
+uuid: 3f1dd2c6-09d0-4f03-8e39-8ebb199d8efb
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - codemirror_editor
+format: basic_html
+editor: codemirror_editor
+settings:
+  toolbar: true
+  buttons:
+    - bold
+    - italic
+    - underline
+    - strike-through
+    - list-numbered
+    - list-bullet
+    - link
+    - horizontal-rule
+    - undo
+    - redo
+    - clear-formatting
+    - enlarge
+    - shrink
+  lineWrapping: false
+  lineNumbers: true
+  foldGutter: false
+  autoCloseTags: true
+  styleActiveLine: false
+  mode: text/html
+image_upload:
+  status: false
